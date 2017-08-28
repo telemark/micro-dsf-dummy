@@ -1,7 +1,7 @@
 {
   "name": "micro-dsf-dummy",
   "description": "dsf dummy microservice",
-  "version": "1.0.10",
+  "version": "1.1.0",
   "license": "MIT",
   "private": true,
   "author": {
@@ -18,7 +18,7 @@
   ],
   "main": "index.js",
   "engines": {
-    "node": ">=7.10.0"
+    "node": ">=8.4.0"
   },
   "scripts": {
     "test": "standard && nsp check && ava",
@@ -27,6 +27,7 @@
     "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
     "setup": "npm install",
     "standard-fix": "standard --fix",
+    "dev": "micro-dev",
     "start": "micro",
     "now-deploy": "npm test && now --npm -E demo.env && now alias"
   },
@@ -51,17 +52,18 @@
     "type": "npm"
   },
   "devDependencies": {
-    "ava": "0.19.1",
+    "ava": "0.22.0",
     "axios": "0.16.2",
     "coveralls": "2.13.1",
-    "nsp": "2.6.3",
-    "nyc": "11.0.2",
-    "standard": "10.0.2",
+    "micro-dev": "1.2.2",
+    "nsp": "2.7.0",
+    "nyc": "11.1.0",
+    "standard": "10.0.3",
     "test-listen": "1.0.2"
   },
   "dependencies": {
     "marked": "0.3.6",
-    "micro": "7.3.3",
+    "micro": "8.0.3",
     "winston": "2.3.1",
     "winston-papertrail": "1.0.5"
   }
