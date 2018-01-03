@@ -57,12 +57,12 @@
     "coveralls": "3.0.0",
     "nsp": "3.0.0",
     "micro-dev": "2.1.1",
-    "nyc": "11.3.0",
+    "nyc": "11.4.1",
     "standard": "10.0.3",
     "test-listen": "1.1.0"
   },
   "dependencies": {
-    "marked": "0.3.7",
+    "marked": "0.3.9",
     "micro": "9.0.2",
     "winston": "3.0.0-rc0",
     "winston-papertrail": "1.0.5"
