@@ -56,7 +56,7 @@
     "axios": "0.17.1",
     "coveralls": "3.0.0",
     "nsp": "3.0.0",
-    "micro-dev": "2.1.1",
+    "micro-dev": "2.1.3",
     "nyc": "11.4.1",
     "standard": "10.0.3",
     "test-listen": "1.1.0"
