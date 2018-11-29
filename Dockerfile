@@ -1,5 +1,5 @@
 # Setting the base to nodejs 8.9.4
-FROM node:8.12.0-alpine@sha256:d75742c5fd41261113ed4706f961a21238db84648c825a5126ada373c361f46e
+FROM node:8.14.0-alpine@sha256:dfc36646eddf67cb2e18d9be1cdecb5ead4907b0593297bdc471f4e90d698d89
 
 # Bundle app source
 COPY . /src
