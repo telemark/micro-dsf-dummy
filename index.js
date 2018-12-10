@@ -9,7 +9,7 @@ const logger = require('./lib/logger')
 const dsfLookup = require('./lib/action-handler')
 
 module.exports = async (req, response) => {
-  const {query} = await parse(req.url, true)
+  const { query } = await parse(req.url, true)
   let data = ['POST', 'PUT'].includes(req.method) ? await json(req) : query
 
   if (['POST'].includes(req.method)) {
