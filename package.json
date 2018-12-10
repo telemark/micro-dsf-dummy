@@ -29,7 +29,7 @@
     "standard-fix": "standard --fix",
     "dev": "micro-dev",
     "start": "micro",
-    "now-deploy": "npm test && now --npm -E demo.env && now alias",
+    "deploy": "npm test && now && now alias",
     "refresh": "rm -rf node_modules && rm package-lock.json && npm install"
   },
   "keywords": [
@@ -46,15 +46,6 @@
     "url": "https://github.com/telemark/micro-dsf-dummy/issues"
   },
   "homepage": "https://github.com/telemark/micro-dsf-dummy#readme",
-  "now": {
-    "alias": [
-      "dummy.dsf.service.t-fk.no"
-    ],
-    "type": "npm",
-    "engines": {
-      "node": "8.9.4"
-    }
-  },
   "devDependencies": {
     "ava": "0.25.0",
     "axios": "0.18.0",

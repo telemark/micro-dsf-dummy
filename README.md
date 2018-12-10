@@ -1,6 +1,5 @@
 [![Build Status](https://travis-ci.org/telemark/micro-dsf-dummy.svg?branch=master)](https://travis-ci.org/telemark/micro-dsf-dummy)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
-[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/micro-dsf-dummy.svg)](https://greenkeeper.io/)
 
 # micro-dsf-dummy
 
@@ -137,10 +136,9 @@ docker run -d \
  ```
  
 ## Related
+
 - [node-dsf](https://github.com/telemark/node-dsf) Node.js module for looking up data from DSF (Det sentrale folkeregister)
 
 ## License
 
 [MIT](LICENSE)
-
-![Robohash image of micro-dsf-dummy](https://robots.kebabstudios.party/micro-dsf-dummy.png "Robohash image of micro-dsf-dummy")

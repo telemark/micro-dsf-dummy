@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "name": "micro-dsf-dummy",
+  "alias": [
+    "dummy.dsf.service.t-fk.no"
+  ],
+  "type": "docker",
+  "dotenv": "demo.env",
+  "features": {
+    "cloud": "v2"
+  }
+}
