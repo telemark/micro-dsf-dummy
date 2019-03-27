@@ -47,7 +47,7 @@
   },
   "homepage": "https://github.com/telemark/micro-dsf-dummy#readme",
   "devDependencies": {
-    "ava": "1.4.0",
+    "ava": "1.4.1",
     "axios": "0.18.0",
     "coveralls": "3.0.3",
     "micro-dev": "3.0.0",
